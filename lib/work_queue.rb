@@ -224,8 +224,6 @@ class WorkQueue
                     @tasks.shift
                 end
                 proc.call(*args)
-            rescue Exception => e
-                # Suppress Exception
             ensure
                 @tasks.synchronize do
                     @cur_tasks -= 1
