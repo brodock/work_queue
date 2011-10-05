@@ -16,7 +16,11 @@ Work queues are useful for several reasons:
 
 Install the gem:
 
-  gem install work_queue
+  gem install brodock-work_queue
+
+Or place this on your Gemfile:
+
+  gem "brodock-work_queue", :require => "work_queue" 
 
 Run the code:
 
