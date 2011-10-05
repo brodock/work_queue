@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
     "LICENSE",
     "README.rdoc",
     "Rakefile",
+    "brodock-work_queue.gemspec",
     "lib/work_queue.rb",
     "test/helper.rb",
     "test/test_work_queue.rb"
