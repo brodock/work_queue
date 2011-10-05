@@ -17,7 +17,7 @@
 require 'test/unit'
 require 'lib/work_queue'
 
-class TC_WorkQueue < Test::Unit::TestCase
+class TestWorkQueue < Test::Unit::TestCase
 
   # def setup
   # end
